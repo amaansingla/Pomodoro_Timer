@@ -1,5 +1,5 @@
 let workTime = 15 //* 60; // 25 minutes in seconds
-let breakTime = 10 //* 60;  // 5 minutes in seconds
+let breakTime = 5 //* 60;  // 5 minutes in seconds
 let time = workTime;
 let timeInterval = null;
 const bell = new Audio("bell.mov");
