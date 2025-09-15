@@ -45,7 +45,7 @@ function startTimer() {
         showAlert("Break Time", 5000);
       } else {
         currentMode = "Work";
-        showAlert("Break is Over. Study Time!", 5000);
+        showAlert("Break is Over. Study Time!\nReset The Timer!", 5000);
         clearInterval(timeInterval);
         timeInterval = null;
       }
