@@ -1,0 +1,81 @@
+body {
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(30, 84%, 79%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  margin: 5% auto;
+  border-radius: 2%;
+  background-color: hsl(30, 84%, 86%);
+  padding: 1em;
+}
+
+.Heading {
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+
+.timer {
+  font-size: 3em;
+  margin: 20px;
+}
+
+#start {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  background-color: hsl(30, 84%, 96%);
+  color: hsl(29, 83%, 12%);
+  border: none;
+  border-radius: 10%;
+  padding: 0.25em;
+}
+#start:hover {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  background-color:  hsl(29, 63%, 69%);
+  color:hsl(30, 84%, 96%);
+  border: none;
+  border-radius: 10%;
+  padding: 0.25em;
+}
+#reset {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  background-color: hsl(30, 84%, 96%);
+  color: hsl(29, 83%, 12%);
+  border: none;
+  border-radius: 10%;
+  padding: 0.25em;
+}
+
+#reset:hover {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  background-color:  hsl(29, 63%, 69%);
+  color:hsl(30, 84%, 96%);
+  border: none;
+  border-radius: 10%;
+  padding: 0.25em;
+}
+
+#mode {
+  font-size: 1.5em;
+  color: hsl(29, 83%, 12%);
+  padding: 1em;
+}
+#alert {
+  font-size: 1em;
+  color: rgb(194, 17, 17);
+  padding: 1em;
+  opacity: 0;               /* start hidden */
+  transition: opacity 1s;   /* fade in/out over 1 second */
+}
