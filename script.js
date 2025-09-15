@@ -65,3 +65,5 @@ function resetTimer() {
 
 start.addEventListener("click", startTimer);
 reset.addEventListener("click", resetTimer);
+
+updateTimer();
